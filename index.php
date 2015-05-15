@@ -48,7 +48,27 @@ $opitraboti = array (
        </tr>
      </table>
        <br><br><br>
-   <h1><center>Intern PHP</center></h1>
+   <h1><center>
+   <?php
+
+function chetornechet($a, $b){
+ $s=$a+$b; 
+ if ($s%2!=0)
+  echo "Intern"."&nbsp;"; 
+ else
+  echo "Junior"."&nbsp;";}
+ chetornechet(21,10);
+
+function glasorsoglas($n){
+  $glasnie = array('a','e','i','o','u');
+ if (in_array($n[0], $glasnie)) 
+  echo "PHP"; 
+ else
+  echo "PHP developer";}
+ glasorsoglas('evgeniy');
+
+?>
+   </center></h1>
      <br><br><br>
    <font size="+2" color="#003366">Образование</font>
      <hr>
